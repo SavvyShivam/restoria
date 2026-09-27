@@ -26,7 +26,7 @@
 <main class="wrap doc">
   <span class="eyebrow">Legal</span>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 2 July 2026 · Applies to the Restoria mobile app (iOS &amp; Android) and this website.</p>
+  <p class="updated">Last updated: 27 September 2026 · Applies to the Restoria mobile app (iOS &amp; Android) and this website.</p>
 
   <p>Restoria (“Restoria”, “we”, “us”) is an AI photo restorer that helps you repair, sharpen and upscale your photos. This policy explains what information we collect, how we use it, who we share it with, and the choices you have. We built Restoria to treat your photos — and your privacy — with care.</p>
 
@@ -51,10 +51,10 @@
   <h3>Photos you choose to enhance</h3>
   <p>When you select a photo (or take one) to restore, un-blur or upscale, that image is sent to our processing service to generate the enhanced result. We only ever process photos you actively choose within the app — Restoria does not scan, browse or upload your photo library in the background.</p>
   <h3>Purchase information</h3>
-  <p>If you buy credits or the ad-free option, the purchase is handled by the app store (Google Play or the Apple App Store). We receive a purchase token / transaction identifier to verify the purchase and add credits to your balance. We never receive or store your full card number or payment details — those stay with the store.</p>
+  <p>If you buy credits, the purchase is handled by the app store (Google Play or the Apple App Store). We receive a purchase token / transaction identifier to verify the purchase and add credits to your balance. We never receive or store your full card number or payment details — those stay with the store.</p>
   <h3>Device and usage information</h3>
   <ul>
-    <li><b>Anonymous app identifier.</b> To keep track of your credit balance and free daily uses, the app signs in anonymously (via Firebase Authentication) and is assigned a random identifier. This is not linked to your name or email.</li>
+    <li><b>Anonymous app identifier.</b> To keep track of your credit balance and free uses, the app signs in anonymously (via Firebase Authentication) and is assigned a random identifier. This is not linked to your name or email.</li>
     <li><b>Advertising identifier.</b> If you choose to watch a rewarded ad to earn a free use, our ads provider (Google AdMob) may access your device's advertising ID to serve and measure that ad.</li>
     <li><b>Diagnostics.</b> We may collect basic, aggregated crash and performance data to keep the app stable.</li>
   </ul>
@@ -62,7 +62,8 @@
   <h2 id="photos">2. How your photos are handled</h2>
   <p>This is the part that matters most, so we'll be specific:</p>
   <ul>
-    <li>The photo you select is transmitted securely to our backend and to our AI processing provider (Replicate) solely to produce the enhanced version.</li>
+    <li>Before your first photo is sent, the app asks for your permission and explains that the selected photo is sent to our backend and to our AI processing provider (Replicate). Nothing is uploaded unless you agree.</li>
+    <li>The photo you select is transmitted securely to our backend and to Replicate solely to produce the enhanced version. Only the image itself is sent — no name, contacts or other personal data.</li>
     <li>The enhanced result is returned to your device. When you tap <b>Save</b>, the photo is stored <b>on your device</b> (your gallery and the app), not on our servers.</li>
     <li>We do not use your photos to train AI models, and we do not sell, license or publish your photos.</li>
     <li>Images are processed transiently for enhancement and are not kept in a long-term photo archive by us.</li>
@@ -71,7 +72,7 @@
   <h2 id="use">3. How we use information</h2>
   <ul>
     <li>To provide the core service — restoring, un-blurring and upscaling the photos you submit.</li>
-    <li>To maintain your credit balance, free daily uses, and ad-free status.</li>
+    <li>To maintain your credit balance and free uses.</li>
     <li>To verify purchases and prevent fraud or abuse.</li>
     <li>To serve rewarded ads if you choose to watch them.</li>
     <li>To fix bugs, improve reliability, and keep the app secure.</li>
@@ -82,7 +83,7 @@
   <ul>
     <li><b>Google Firebase</b> (authentication, cloud functions, hosting) — anonymous sign-in and backend infrastructure. See Google's <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy &amp; Security</a>.</li>
     <li><b>Replicate</b> — runs the AI models that enhance your submitted photo and returns the result. See <a href="https://replicate.com/privacy" target="_blank" rel="noopener">Replicate's privacy policy</a>.</li>
-    <li><b>Google Play Billing / Apple App Store</b> — process payments for credits and the ad-free option.</li>
+    <li><b>Google Play Billing / Apple App Store</b> — process payments for credits.</li>
     <li><b>Google AdMob</b> — serves optional rewarded ads. See Google's <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</li>
   </ul>
 
